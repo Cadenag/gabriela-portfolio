@@ -2,7 +2,6 @@
 
 import ChatBox from "@/components/ChatBox";
 import { Github, Mail, ArrowRight } from "lucide-react";
-import Image from "next/image";
 
 const courses = [
   "CPS 3320 — Python Programming",
@@ -119,16 +118,12 @@ export default function Home() {
         <div className="rounded-[2rem] border border-rose-200 bg-white px-8 pt-12 pb-10 shadow-xl">
           <div className="flex flex-col items-center text-center">
             <div className="mt-4 mb-6 overflow-hidden rounded-full border-4 border-rose-200 shadow-lg">
-              <Image
+              <img
                 src="/headshot.jpg"
                 alt="Gabriela Cadena headshot"
-                width={240}
-                height={240}
                 className="h-[240px] w-[240px] object-cover"
-                priority
               />
             </div>
-
             <div className="space-y-3 text-sm text-slate-600">
               <p><span className="font-semibold text-rose-500">Name:</span> Gabriela Cadena</p>
               <p><span className="font-semibold text-rose-500">Major:</span> Computer Science</p>
