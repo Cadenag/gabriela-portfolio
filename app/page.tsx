@@ -119,9 +119,9 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <div className="mt-4 mb-6 overflow-hidden rounded-full border-4 border-rose-200 shadow-lg">
               <img
-                src="/headshot.jpg"
+                src="/gabriela-headshot.jpg"
                 alt="Gabriela Cadena headshot"
-                className="h-[240px] w-[240px] object-cover"
+                className="block h-[240px] w-[240px] object-cover"
               />
             </div>
             <div className="space-y-3 text-sm text-slate-600">
